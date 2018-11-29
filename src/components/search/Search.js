@@ -4,7 +4,7 @@ import MenuItem from 'material-ui/MenuItem';
 import SelectField from 'material-ui/SelectField';
 import axios from 'axios';
 import ImageResults from '../image-results/ImageResults';
-
+import { Grid, GridList, GridTile } from 'material-ui/GridList';
 class Search extends Component {
     state = {
         searchText: '',
@@ -39,13 +39,13 @@ class Search extends Component {
         return (
             <div>
                 <TextField
+
                     name="searchText"
                     value={this.state.searchText}
                     onChange={this.onTextChange}
                     floatingLabelText="Görsel Arama"
                     fullWidth={true}
-                />
-                <br />
+                    />
 
                 <SelectField
                     name="amount"
