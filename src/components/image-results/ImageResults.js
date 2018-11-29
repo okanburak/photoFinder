@@ -6,7 +6,6 @@ import ZoomIn from 'material-ui/svg-icons/action/zoom-in';
 import Dialog from 'material-ui/Dialog';
 import FlatButton from 'material-ui/FlatButton';
 
-OkanBurak; Test;
 
 class ImageResults extends Component {
     state = {
@@ -54,7 +53,7 @@ handleClose = () =>{
         }
 
         const actions = [
-            <FlatButton label="Close" primary={true} onClick={this.handleClose} />
+            <FlatButton label="Kapat" primary={true} onClick={this.handleClose} />
         ]
         return <div>{imageListContent}
         <Dialog 

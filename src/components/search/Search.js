@@ -42,7 +42,7 @@ class Search extends Component {
                     name="searchText"
                     value={this.state.searchText}
                     onChange={this.onTextChange}
-                    floatingLabelText="Burdan ara Aq!"
+                    floatingLabelText="Görsel Arama"
                     fullWidth={true}
                 />
                 <br />
